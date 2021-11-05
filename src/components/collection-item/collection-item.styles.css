@@ -1,0 +1,35 @@
+.collection-item {
+  height: 350px;
+  width: 22%;
+}
+
+.collection-item .image {
+  height: 95%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+}
+
+.collection-item .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5%;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+.collection-item .footer .item-name {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.collection-item .footer .item-price {
+  width: 20%;
+  text-align: right;
+}
+/*# sourceMappingURL=collection-item.styles.css.map */
